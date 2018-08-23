@@ -1,8 +1,7 @@
 # exec into all kubernetes containers and run commands on all
 # while keeping terminal windows open to each
 
-NAMESPACE='some-namespace'
-CONTAINER='some-containerr'
+source .env
 SHELL='bash'
 
 # commands to run in each container
